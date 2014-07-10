@@ -1,0 +1,85 @@
+/*****************************************************************
+HEADER
+*****************************************************************/
+header {
+	float: left;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header h1 {
+	color: #000000;
+	font-size: 4em;
+}
+
+header h2 {
+	font-size: 1.25em;
+	color: #8B8B8B;
+}
+
+/*****************************************************************
+SECTION - IMAGE CAROUSEL
+*****************************************************************/
+
+section ul {
+	float: left;
+	text-align: center;
+	list-style: none;
+	padding: 10px 0;
+	margin: 20px 0 0;
+
+}
+
+section ul li {
+	width: 237px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 5px;
+
+}
+
+section ul a {
+	text-decoration: none;
+	color: #8B8B8B;
+}
+
+section ul a p:hover {
+	color: #636161;
+}
+
+section ul a img {
+	border-radius: 160px;
+}
+
+section ul a img:hover {
+	border: 2px solid #A29CF6;
+	-webkit-transition-property: border;
+	-webkit-transition-duration: 0.1s;
+	-webkit-transition-timing-function: linear;
+}
+
+/*****************************************************************
+FOOTER
+*****************************************************************/
+footer {
+	text-align: center;
+	color: #8B8B8B;
+}
+
+
+/*****************************************************************
+GENERAL
+*****************************************************************/
+
+body {
+	max-width: 1272px;
+	background: #F3F2F0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
